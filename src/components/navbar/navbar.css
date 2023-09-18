@@ -1,0 +1,157 @@
+.active {
+    color: var(--color-primary);
+    border-bottom: 2px solid;
+    transition: all 0.2s ease-in-out;
+}
+
+.woonders_navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 2rem 6rem;
+    background: var(--color-header);
+}
+
+
+.woonders_navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.woonders_navbar-links_logo{
+    margin-right: 2rem;
+}
+
+.woonders_navbar-links_logo img{
+    width: 129px;
+    height: 18px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    margin-left: 2rem;
+    
+}
+
+
+.nav-links {
+    text-decoration: none;
+    color: var(--color-text);
+    font-size: 0.8rem;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.nav-links:hover {
+    /* color: var(--color-primary); */
+    color: blue;
+    border-bottom: 2px solid;
+    transition: all 0.2s ease-in-out;
+}
+
+.nav-links-mobile {
+    display: none;
+}
+button {
+    padding: 1.125rem 1.75rem;
+    white-space: nowrap;
+    border-radius: 600rem;
+    border: none;
+    font-size: 0.8rem;
+    font-weight: 700;
+    font-family: var(--font-family);
+    cursor: pointer;
+}
+
+button:hover {
+    transition: all 0.2s ease-in-out;
+    background: var(--color-bnt);
+    color: white;
+}
+
+.woonders_navbar-menu{
+    display: none;
+    margin-left: 1rem;
+    position: relative;
+}
+
+.woonders_navbar-menu svg{
+    cursor: pointer;
+}
+
+.ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+
+    text-align: end;
+    background: var(--color-footer);
+    padding: 2rem;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    margin-top: 1rem;
+    min-width: 200px;
+    border-radius: 5px;
+}
+
+.woonders_navbar-menu_container a{
+    margin-bottom: 1rem;
+}
+
+
+@media screen and (max-width: 1050px) {
+    .woonders_navbar-links_container {
+        display: none;
+    }
+
+    .woonders_navbar-menu {
+        display: block;
+    }
+    
+
+    ul {
+        display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    gap: 1rem;
+    
+
+    text-align: end;
+    background: var(--color-footer);
+    padding: 2rem;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    margin-top: 1rem;
+    min-width: 200px;
+    border-radius: 5px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .woonders_navbar {
+        padding: 2rem 4rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .woonders_navbar {
+        padding: 2rem 2rem;
+    }
+    .woonders_navbar-links_container {
+        top: 20px;
+    }
+}
