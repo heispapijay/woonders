@@ -1,0 +1,63 @@
+/* .flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+    padding: 20px;
+    display: flex; 
+    align-items: center; 
+}
+
+.flex-child:first-child {
+    margin-right: 20px;
+}
+
+.video_text-to_the-left {
+    text-align: left;
+    margin-left: rem; 
+} */
+
+
+/* .float-container {
+    border: 3px solid #fff;
+    padding: 20px;
+}
+
+.float-child {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    border: 2px solid red;
+}   */
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.flex-child:first-child {
+    margin-right: 20px;
+}
+
+.video_text-to_the-left {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.image-container {
+    position: relative; /* Create a positioning context for the button */
+}
+
+.centered-button {
+    position: absolute;
+    top: 50%; /* Position from the top edge */
+    left: 50%; /* Position from the left edge */
+    transform: translate(-50%, -50%); /* Center the button both horizontally and vertically */
+}
