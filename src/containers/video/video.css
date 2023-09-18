@@ -1,36 +1,3 @@
-/* .flex-container {
-    display: flex;
-}
-
-.flex-child {
-    flex: 1;
-    padding: 20px;
-    display: flex; 
-    align-items: center; 
-}
-
-.flex-child:first-child {
-    margin-right: 20px;
-}
-
-.video_text-to_the-left {
-    text-align: left;
-    margin-left: rem; 
-} */
-
-
-/* .float-container {
-    border: 3px solid #fff;
-    padding: 20px;
-}
-
-.float-child {
-    width: 50%;
-    float: left;
-    padding: 20px;
-    border: 2px solid red;
-}   */
-
 .flex-container {
     display: flex;
 }
